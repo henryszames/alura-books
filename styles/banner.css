@@ -28,6 +28,12 @@
     font-family: var(--fonte-principal);
 }
 
+.banner__pesquisa:focus {
+    border: solid 1px  var(--amarelo) !important;
+    color: var(--amarelo);
+    background-color: var(--azul-escuro);
+}
+
 .banner__pesquisa::placeholder {
     color: var(--branco);
     text-align: center;
@@ -40,7 +46,6 @@
     
     .banner {
         padding: 5em;
-
         align-items: center;
     }
     .banner__titulo {
